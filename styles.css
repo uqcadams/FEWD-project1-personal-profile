@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,12 +86,12 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: auto;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0c5ea1;
 }
 
 ul.skills {
@@ -201,6 +201,24 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  /* Additional CSS added by Chris */
+
+  h4 {
+    font-style: italic;
+  }
+
+  .sub-card:hover {
+    background-color: rgb(252, 247, 238);
+  }
+
+  .travel-image {
+    width: 100%;
+  }
+
+  h4+p {
+    margin-top: -3%;
   }
 
 }
