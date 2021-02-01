@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(201, 74, 1);
 }
 a:hover {
   color: #6633ff;
@@ -91,7 +91,7 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: auto;
+  min-width: auto;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -213,12 +213,13 @@ a.social:hover {
     background-color: rgb(252, 247, 238);
   }
 
-  .travel-image {
+  .card-image {
     width: 100%;
+    border-radius: 10px;
   }
-
-  h4+p {
-    margin-top: -3%;
+  
+  .experience {
+    margin-top: 5em;
   }
 
 }
